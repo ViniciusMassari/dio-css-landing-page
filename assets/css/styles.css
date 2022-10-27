@@ -18,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("../images/background-header.png");
+  margin: 0 auto;
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -71,8 +72,9 @@ body {
   border-image: linear-gradient(180deg, #33a8db 0%, #1472b7 100%) 30;
   padding: 19px;
 }
+
 hr {
-  width: 100vw;
+  width: 100%;
   color: inherit;
   margin: 50px 0;
   border-image: linear-gradient(180deg, #33a8db 0%, #1472b7 100%) 30;
@@ -85,6 +87,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   height: 325px;
 }
 .course-content h2 {
@@ -144,7 +147,6 @@ hr {
   margin-top: 50px;
   background-image: url("../images/woman.png");
   background-repeat: no-repeat;
-  width: 100vw;
 }
 
 .woman-background h2 {
@@ -172,15 +174,17 @@ hr {
 }
 
 .students-dio img {
+  max-width: 100%;
   margin-top: 50px;
 }
 
 .students-dio .students-text {
-  width: 50%;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .students-dio p {
+  max-width: 960px;
   font-weight: 400;
   font-size: 1.5em;
   text-align: center;
