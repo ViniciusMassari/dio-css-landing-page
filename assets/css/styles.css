@@ -18,7 +18,6 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("../images/background-header.png");
-  margin: 0 auto;
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -33,7 +32,7 @@ body {
 }
 
 .banner-content img {
-  height: 214px;
+  height: 30%;
 }
 
 .banner-content h1 {
@@ -147,6 +146,7 @@ hr {
   margin-top: 50px;
   background-image: url("../images/woman.png");
   background-repeat: no-repeat;
+  max-width: 100vw;
 }
 
 .woman-background h2 {
@@ -198,6 +198,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+footer img {
+  max-width: 80%;
 }
 
 footer p {
