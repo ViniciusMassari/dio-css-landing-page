@@ -216,3 +216,34 @@ footer a {
   text-decoration: none;
   color: #33a8db;
 }
+
+@media (max-width: 900px) {
+  .students-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 427px) {
+  .woman-background {
+    display: none;
+  }
+  hr {
+    margin: 100px 0;
+  }
+}
+
+@media (max-width: 395px) {
+  .course-content h2 {
+    font-size: 1.7rem;
+  }
+
+  .students-dio h2 {
+    font-size: 1.7rem;
+  }
+
+  .students-text {
+    font-size: 0.9rem;
+  }
+}
